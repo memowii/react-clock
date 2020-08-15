@@ -1,10 +1,12 @@
 import React from 'react';
-import './index.css';
+import { Layout } from '../Layout'
 
 export function App() {
   return (
-    <div className="App">
-      App 
-    </div>
+    <>
+      <Layout>
+        App
+      </Layout>
+    </>
   );
 }
