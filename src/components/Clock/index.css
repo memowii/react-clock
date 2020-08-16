@@ -1,0 +1,24 @@
+.Clock {
+  align-items: center;
+  background-color: #282c34;
+  border: 1rem solid #32363e;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 14rem;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 14rem;
+}
+
+.Clock__time {
+  color: #61dafb;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Clock__date {
+  color: #61dafb;
+  font-size: .9rem;
+  font-weight: 300;
+}

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { Switch } from '../../components/Switch'
+import { Clock } from '../../components/Clock';
 
 export function Home() {
   return (
@@ -14,6 +15,9 @@ export function Home() {
         <span className="m-3">
           <FontAwesomeIcon icon={faCalendarAlt} size="2x" className="s" />
         </span>
+      </div>
+      <div className="d-flex flex-row justify-content-center">
+        <Clock />
       </div>
     </div>
   );
