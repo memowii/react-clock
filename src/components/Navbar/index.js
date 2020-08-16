@@ -8,7 +8,7 @@ export function Navbar() {
       <div className="container">
         <div className="row m-auto">
           <FontAwesomeIcon icon={faClock} size="4x" className="text-white" />
-          <div class="h1 ml-3 my-auto text-light" href="/">
+          <div className="h1 ml-3 my-auto text-light" href="/">
             React Clock
           </div>
         </div>
